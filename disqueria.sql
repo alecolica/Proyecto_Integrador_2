@@ -113,3 +113,16 @@ create table alumno(
 
 use disqueria;
 select * from genero;
+
+update album
+set cod_album = 3333333,
+	nombre = 'nombre de album',
+	id_interprete = 2,
+	id_genero = 2,
+	cant_temas = 11,
+	id_discografica = 1,
+	id_formato = 1,
+	fec_lanzamiento = '2022-10-27',
+	precio = 2000,
+	cantidad = 3
+where id_album = 4
